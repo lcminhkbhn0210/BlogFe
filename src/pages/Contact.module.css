@@ -1,0 +1,46 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+}
+.container__contact {
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 60%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.container__contact__title h1 {
+    padding-bottom: 20px;
+}
+
+.container__contact__title{
+    margin-bottom: 20px;
+}
+
+.container__contact__form label{
+    margin-bottom: 10px;
+}
+.container__contact__form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.container__contact__form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.btn{
+    margin-left: 5px;
+    width: 20%;
+    color: #fff;
+    background-color: rgba(49, 44, 44, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+}

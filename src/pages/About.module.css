@@ -1,0 +1,45 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+}
+.container__about {
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 60%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.container__about__infor {
+    padding: 10px;
+}
+
+.container__about__infor h1{
+    margin-bottom: 10px;
+}
+.container__about__infor p {
+    font-size: 15px;
+}
+.container__about__else {
+    padding: 10px;
+}
+.btn {
+    margin-left: 5px;
+    width: 20%;
+    color: #fff;
+    background-color: rgba(49, 44, 44, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+}
+.container__about__else h1 {
+    padding-bottom: 20px;
+    color: #615a5a;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}

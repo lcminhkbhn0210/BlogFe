@@ -1,0 +1,19 @@
+.content_container {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.content__body {
+  font-size: 14px;
+}
+.content__footer {
+  font-size: 14px;
+  display: flex;
+}
+.dotted {
+  width: 5px;
+  height: initial;
+  border: 1px solid rgb(206, 209, 209, 0.6);
+  background-color: rgb(206, 209, 209, 0.6);
+  margin-right: 30px;
+  display: none;
+}
